@@ -114,11 +114,11 @@ def get_addr(string):
     """
     Get IP address
     """
-    t = string.split()
+    token = string.split()
     address = []
-    for i_token in t:
+    for i_token in token:
         if i_token == "A":
-            address += [t[-1]]
+            address += [token[-1]]
 
     return address
 
