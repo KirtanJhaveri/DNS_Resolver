@@ -49,4 +49,4 @@ The script initiates queries by contacting a root server (IP addresses are hardc
 - The resolver efficiently manages CNAME restarts, unglued nameservers, and avoids throwing exceptions, presenting a summary of DNS information for the specified domain names.
 
 ## Credits
-This resolver script utilizes the `dnspython` library and has been developed as part of an assignment or project for [course name/assignment description].
+This resolver script utilizes the `dnspython` library
